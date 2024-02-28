@@ -1,21 +1,28 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
+  <div class="sticky-top wrapper">
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
+    <!-- <div class="wrapper"> -->
+    <!-- <HelloWorld msg="You did it!" /> -->
+    <nav class="navbar navbar-dark bg-dakr">
+      <a class="navbar-brand" href="#">
+        <img src="" width="30" height="30" class="d-inline-block align-top" alt="" />
+        JOBSHOPER
+      </a>
+      <div class="links">
+      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/about">About</RouterLink>
     </div>
+    </nav>
+    <!-- </div> -->
   </header>
+</div>
 
   <RouterView />
 </template>
@@ -26,20 +33,19 @@ header {
   max-height: 100vh;
 }
 
-.logo {
+/* .logo {
   display: block;
   margin: 0 auto 2rem;
-}
+} */
 
 nav {
   width: 100%;
   font-size: 12px;
   text-align: center;
-  margin-top: 2rem;
 }
 
 nav a.router-link-exact-active {
-  color: var(--color-text);
+  color: white;
 }
 
 nav a.router-link-exact-active:hover {
@@ -48,8 +54,22 @@ nav a.router-link-exact-active:hover {
 
 nav a {
   display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
+  text-decoration: none;
+  font-weight: bold;
+  /* padding: 0 1rem; */
+  /* border-left: 1px solid var(--color-border); */
+}
+
+a:visited, a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.links > * {
+  font-size: small;
+  font-weight: bold;
+  display: inline-block;
+  padding-left: 0.5rem;
 }
 
 nav a:first-of-type {
@@ -57,6 +77,15 @@ nav a:first-of-type {
 }
 
 @media (min-width: 1024px) {
+  .links > * {
+  font-size: medium;
+  font-weight: bold;
+  display: inline-block;
+  padding-left: 4rem;
+}
+}
+
+/* @media (min-width: 1024px) {
   header {
     display: flex;
     place-items: center;
@@ -81,5 +110,5 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
-}
+} */
 </style>
