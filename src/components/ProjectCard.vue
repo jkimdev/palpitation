@@ -10,16 +10,17 @@
         <p class="card-text">
           <slot name="card-text"> </slot>
         </p>
-        <a href="#" class="card-link">Learn more →</a>
+        <Button type="button" class="btn btn-primary">Learn more →</Button>
       </div>
     </div>
   </div>
 </template>
 
 <style>
-a, a:visited {
+.btn {
     text-decoration: none;
-    color: white
+    background-color: #63429F;
+    border-color: #63429F;
 }
 </style>
 

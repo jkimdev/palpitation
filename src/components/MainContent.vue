@@ -24,7 +24,7 @@
       >
     </div>
     <div class="border-top pb-4"></div>
-    <div class="contributors">
+    <div class="contributors" style="padding-bottom: 1rem;">
       <h1 class="font-weight-bold">Contributors</h1>
       <img class="img-fluid rounded" src="../assets/images/contributors.jpg" alt="" />
     </div>
