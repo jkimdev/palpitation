@@ -19,8 +19,15 @@
 <style>
 .btn {
     text-decoration: none;
-    background-color: #63429F;
-    border-color: #63429F;
+    background: none;
+    border: none;
+    float: right;
+    font-style: italic;
+}
+
+.btn:hover, .btn:active {
+  background: none !important;
+  border: none !important;
 }
 </style>
 
