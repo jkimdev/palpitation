@@ -11,10 +11,10 @@ import { RouterLink, RouterView } from 'vue-router'
             src="./assets/logo.svg"
             width="30"
             height="30"
-            class="d-inline-block align-top"
+            class="d-inline-block align-top rounded-circle"
             alt=""
           />
-          JJOBSHOPER
+          Blurg
         </a>
         <div class="links">
           <RouterLink to="/">About</RouterLink>

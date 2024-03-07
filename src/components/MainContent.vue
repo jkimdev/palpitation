@@ -11,7 +11,7 @@
       <div class="border-top pb-4"></div>
     </div>
     <div class="about-content pb-4">
-      <img class="img-fluid rounded mx-auto d-block about-img" src="../assets/images/about.svg" />
+      <img class="img-fluid rounded mx-auto d-block about-img" src="../assets/images/about.jpg" />
       <span>
         <p class="about-text">
           The domestic private education market is extraordinarily mature and massive, unlike

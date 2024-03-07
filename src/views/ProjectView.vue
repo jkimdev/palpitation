@@ -26,11 +26,11 @@ onMounted(() => {
             style="height: 10rem"
           />
         </template>
-        <template #card-title>세특학원 학쫑프로</template>
+        <template #card-title>Quantum Harmony</template>
         <template #card-text>
           <ul>
-            <li>[2023.07] 학쫑프로 수시배치표 런칭</li>
-            <li>[2023.07] 학쫑프로 정식런칭</li>
+            <li>[2023.07] Developing a next-generation AI algorithm to optimize quantum computing architectures.</li>
+            <li>[2023.07] Crafting a unique interface for seamless integration between quantum computers and traditional systems.</li>
           </ul>
         </template>
       </ProjectCard>
@@ -45,11 +45,11 @@ onMounted(() => {
             style="height: 10rem"
           />
         </template>
-        <template #card-title>맞춤형 비교과 B2C 솔루션 세특여왕</template>
+        <template #card-title>Echo Nebula</template>
         <template #card-text>
           <ul>
-            <li>[2023.07] 학쫑프로 수시배치표 런칭</li>
-            <li>[2023.07] 학쫑프로 정식런칭</li>
+            <li>[2023.07] A groundbreaking platform for immersive auditory experiences using 3D spatial audio technology.</li>
+            <li>[2023.07] Collaborating with artists and scientists to explore the outer limits of sound in virtual environments.</li>
           </ul>
         </template>
       </ProjectCard>
@@ -64,11 +64,11 @@ onMounted(() => {
             style="height: 10rem"
           />
         </template>
-        <template #card-title>AI 학습용 데이터 수집/가공 플랫폼 린에이아이(Lean AI)</template>
+        <template #card-title>Green Catalyst</template>
         <template #card-text>
           <ul>
-            <li>[2023.07] 학쫑프로 수시배치표 런칭</li>
-            <li>[2023.07] 학쫑프로 정식런칭</li>
+            <li>[2023.07] Revolutionizing urban agriculture through the use of nanotechnology-enhanced soil substitutes.</li>
+            <li>[2023.07] Implementing a sustainable, community-driven model for food production in urban settings.</li>
           </ul>
         </template>
       </ProjectCard>
